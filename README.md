@@ -9,7 +9,6 @@ ________________
 - Band should have a method Band.all that returns all the instances of Band
 - Band should have a method Band#play_in_venue that takes a venue and date as a string as arguments and associates the band to that venue
 - Band should have a method Band#concerts should return an array of all that band's concerts
-- Band should have a method Band.all_introductions that puts out a message of "Hello, we are {insert band name here} and we're from {insert hometown here}" for each band
 - Band should have a method Band#venues that returns an array of all the venues the band has concerts in
 #### CONCERT
 - Concert should have a Concert.all method which returns all the instances of Concert
@@ -21,3 +20,4 @@ ________________
 - Venue should have a method Venue.all method which returns all the instances of Venue
 - Venue should have a method Venue#concerts that lists all the concerts that have ever been performed in that venue
 - Venue should have a method Venue#bands that lists all the bands that have ever played in that venue
+- Venue should have a method Venue#all_introductions that puts out a message of "Hello, we are {insert band name here} and we're from {insert hometown here}" for each band
